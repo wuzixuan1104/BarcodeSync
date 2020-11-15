@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<div>
+  <HelmetWrapper
+    defaultTitle="JKOP web Boilerplate"
+    defer={true}
+    encodeSpecialCharacters={true}
+    titleTemplate="%s - JKOP web"
+  >
+    <meta
+      content="A React.js Boilerplate application"
+      name="description"
+    />
+  </HelmetWrapper>
+  <Header />
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      path="/about"
+    />
+    <Route
+      component={[Function]}
+    />
+  </Switch>
+  <Memo(Connect(LocaleToggle)) />
+  <GlobalStyleComponent />
+</div>
+`;

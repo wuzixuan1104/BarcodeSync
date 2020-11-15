@@ -1,0 +1,10 @@
+{
+  "app.components.Header.butotn.about": "About",
+  "app.components.Header.butotn.home": "Home",
+  "app.components.Header.home": "",
+  "app.containers.About.header": "",
+  "app.containers.LocaleToggle.zh": "中文",
+  "app.containers.LocaleToggle.en": "English",
+  "app.containers.HomePage.page": "Home page",
+  "app.containers.NotFoundPage.page": "wooow, nothing here.."
+}

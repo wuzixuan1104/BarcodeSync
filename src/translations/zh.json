@@ -1,0 +1,10 @@
+{
+  "app.components.Header.butotn.about": "關於",
+  "app.components.Header.butotn.home": "首頁",
+  "app.components.Header.home": "這是首頁...",
+  "app.containers.LocaleToggle.zh": "中文",
+  "app.containers.LocaleToggle.en": "English",
+  "app.containers.About.header": "This is the About container!",
+  "app.containers.HomePage.page": "首頁內容2",
+  "app.containers.NotFoundPage.page": "沒東西.."
+}
