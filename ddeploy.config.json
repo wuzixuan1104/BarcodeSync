@@ -1,0 +1,10 @@
+{
+  "dist": "build",
+  "deploy": {
+    "ghpage": {
+      "account": "wuzixuan1104",
+      "repository": "https://github.com/wuzixuan1104/barcodeSync",
+      "commitMsg": "hello"
+    }
+  }
+}
