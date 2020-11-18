@@ -3,7 +3,7 @@
   "deploy": {
     "ghpage": {
       "account": "wuzixuan1104",
-      "repository": "https://github.com/wuzixuan1104/barcodeSync",
+      "repository": "barcodeSync",
       "commitMsg": "hello"
     }
   }

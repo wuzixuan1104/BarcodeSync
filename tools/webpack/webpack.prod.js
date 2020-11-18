@@ -14,6 +14,7 @@ module.exports = merge(common, {
   output: {
     filename: '[name].[chunkhash].js',
     chunkFilename: '[name].[chunkhash].chunk.js',
+    publicPath: '/barcodeSync/',
   },
 
   optimization: {

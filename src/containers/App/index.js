@@ -26,6 +26,9 @@ export default function App() {
 
   setDefaultClient(client);
 
+  const basepath =
+    process.env.NODE_ENV !== 'production' ? '/' : '/barcodeSync';
+
   return (
     <div>
       <Helmet titleTemplate="%s - JKOP web" defaultTitle="JKOP web Boilerplate">
@@ -33,9 +36,8 @@ export default function App() {
       </Helmet>
       <Header />
       <Wrapper>
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route component={NotFoundPage} />
+        <Switch basename={basepath}>
+          <Route component={HomePage} />
         </Switch>
       </Wrapper>
       <GlobalStyle />
