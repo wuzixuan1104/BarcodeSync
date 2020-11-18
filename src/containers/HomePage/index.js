@@ -12,9 +12,11 @@ import { Wrapper } from './style';
 
 export default function HomePage() {
   return (
-    <Wrapper>
-      <Book />
+    <>
+      <Wrapper>
+        <Book />
+      </Wrapper>
       <BarcodePage />
-    </Wrapper>
+    </>
   );
 }

@@ -19,7 +19,7 @@ const GET_IMAGES_QUERY = `
     allBooks(
       SORT: { title: 1 },
       PAGE: $page,
-      PAGE_SIZE: 9
+      PAGE_SIZE: 50
     ) {
       Books{
         smallImage
@@ -37,7 +37,7 @@ export default function Books() {
     initScan();
     detectScan();
 
-    return () => {};
+    return () => { };
   }, []);
 
   const initScan = async () => {

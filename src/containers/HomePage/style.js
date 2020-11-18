@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 const Wrapper = styled('section')`
   position: relative;
+  height: calc(100% - 200px);
+  overflow: auto;
 `;
 
 const Barcode = styled('div')`
