@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Wrapper = styled('section')`
   position: relative;
-  height: calc(100% - 200px);
+  height: calc(100% - 120px);
   overflow: auto;
 `;
 
